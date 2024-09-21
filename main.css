@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   cursor: default;
+  font-family: var(--f-u-r);
 }
 /* --c-p : #007bff;
 --c-s : #ffc107;
@@ -22,13 +23,13 @@ header {
   align-items: center;
   justify-content: space-between;
   width: auto;
-  height: 3.6rem;
-  padding-inline: 2rem;
+  height: 3rem;
+  padding-inline: 1.6rem;
   border-bottom: solid 1px var(--c-l);
 }
 .judul > h1 {
   color: var(--c-s);
-  font-size: 2.8rem;
+  font-size: 2.4rem;
 }
 nav {
   height: 100%;
@@ -43,12 +44,12 @@ nav > ul {
 }
 nav > ul > li {
   display: inline-block;
-  padding-inline: 1.6rem;
+  padding-inline: 1.4rem;
   height: 100%;
 }
 nav > ul > li > a {
   color: var(--c-s);
-  text-transform: uppercase;
+  text-transform: capitalize;
   height: 100%;
   display: flex;
   align-items: center;
